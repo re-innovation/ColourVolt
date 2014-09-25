@@ -1,16 +1,17 @@
-This is the github repository for the Bat Listener device.
-This project is based upon a design from Elektor Electronic magazine
+This is the github repository for the ColourVolt
 
 The PCB was re-designed by by Matt Little from Renewable Energy Innovation.
+
+
 Contact:
 www.re-innovation.co.uk
 matt@re-innovation.co.uk
 
 Overview:
 
-This detects ultrasonic frequencies, such as those emitted by bats.
-The circuit filters and frequency shifts them down to human audiable level. 
-The output is a small loudspeaker.
+This unit measures voltage and displays it as a colour on an RGB LED.
+It also reads out the voltage on the serial port when asked via its unique ID.
+It can be calibrated (via a serial command) and can have its ID changed (via serial command)
 
 see www.re-innovation.co.uk for more details
 
@@ -28,4 +29,3 @@ Modified:
 
 To Do:
 
-Build enclosure for the kit.
